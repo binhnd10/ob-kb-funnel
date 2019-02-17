@@ -4,8 +4,16 @@
   "kibana": {
     "version": "kibana"
   },
+  "scripts": {
+    "kbn": "node ../../kibana/scripts/kbn",
+    "es": "node ../../kibana/scripts/es",
+    "build": "plugin-helpers build"
+  },
   "devDependencies": {
-    "numeral": "1.5.3",
-    "d3-funnel": "^1.2.0"
+    "d3-funnel": "^1.2.0",
+    "numeral": "1.5.3"
+  },
+  "dependencies": {
+    "nvm": "0.0.4"
   }
 }
